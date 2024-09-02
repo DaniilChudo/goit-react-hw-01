@@ -1,0 +1,32 @@
+.transactionHistory {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #000;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  border: 1px solid #555;
+  padding: 8px;
+}
+
+.transactionHistory th {
+  background-color: #888;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: #b8b5b5;
+}
+
+.transactionHistory tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.transactionHistory td {
+  padding: 8px 12px;
+  border: 1px solid #ddd; /* Бордер для клітинок */
+}

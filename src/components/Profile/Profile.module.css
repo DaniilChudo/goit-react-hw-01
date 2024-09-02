@@ -1,0 +1,72 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid #161414;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding: 20px;
+}
+
+.avatar {
+  background-color: #555;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.tag {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.stats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0efef;
+}
+
+.stats li {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #888;
+  box-sizing: border-box; /* Включити бордер у розрахунок ширини */
+}
+.stats li:not(:last-child) {
+  margin-right: -1px; /* Виправлення для коректного відображення бордерів */
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+
+.quantity {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}

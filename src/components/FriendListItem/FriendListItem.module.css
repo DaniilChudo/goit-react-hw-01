@@ -1,0 +1,33 @@
+.friendItem {
+  font-family: sans-serif;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #161515;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.avatar {
+  padding-bottom: 10px;
+}
+
+.name {
+  margin: auto;
+  font-weight: bold;
+}
+
+.status {
+  margin: auto;
+  font-weight: normal;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
